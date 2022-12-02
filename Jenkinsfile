@@ -11,7 +11,9 @@ node {
     def PACKAGE_NAME='0Ho1U000000CaUzSAK'
     def PACKAGE_VERSION
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
-
+    
+    def server_key_file = env.SERVER_KEY_FILE
+    
     def toolbelt = tool 'toolbelt'
 
 
