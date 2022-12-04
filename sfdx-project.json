@@ -1,11 +1,7 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "orgName": "CI Example",
+    "edition": "Developer",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "45.0"
 }
