@@ -1,13 +1,18 @@
 {
-  "orgName": "CI Example",
+  "orgName": "ciorg",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "country": "NL",
+  "language": "nl_NL",
+  "features": ["AuthorApex", "DebugApex"],
   "settings": {
+    "apexSettings": {
+      "enableApexApprovalLockUnlock": true
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
-    },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
     }
   }
 }
