@@ -1,18 +1,9 @@
 {
-  "orgName": "ciorg",
-  "edition": "Developer",
-  "country": "NL",
-  "language": "nl_NL",
-  "features": ["AuthorApex", "DebugApex"],
-  "settings": {
-    "apexSettings": {
-      "enableApexApprovalLockUnlock": true
-    },
-    "languageSettings": {
-      "enableTranslationWorkbench": true
-    },
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    }
-  }
+    "orgName": "ciorg",
+    "edition": "Developer",
+    "settings": {
+        "orgPreferenceSettings": {
+            "s1DesktopEnabled": true
+        	}
+        }
 }
