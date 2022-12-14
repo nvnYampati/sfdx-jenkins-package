@@ -52,7 +52,7 @@ node {
             // -------------------------------------------------------------------------
 
             stage('Create Test Scratch Org') {
-                rc = command "${toolbelt}sfdx force:org:create -f config\project-scratch-def.json --setalias SomeScratchOrg --durationdays 30 --setdefaultusername --json"
+                rc = command "${toolbelt}sfdx force:org:create -f config/project-scratch-def.json --setalias SomeScratchOrg --durationdays 30 --setdefaultusername --json"
                 if (rc != 0) {
                     error 'Salesforce test scratch org creation failed.'
                 }
